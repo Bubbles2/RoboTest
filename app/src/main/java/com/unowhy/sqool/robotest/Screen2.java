@@ -1,10 +1,12 @@
 package com.unowhy.sqool.robotest;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class Screen2 extends Activity {
@@ -13,6 +15,13 @@ public class Screen2 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen2);
+        // Get passed values
+        Intent myIntent = getIntent();
+        String myData = myIntent.getStringExtra("myTitle");
+        //
+        TextView tit = (TextView) findViewById(R.id.txt1);
+        tit.setText(myData);
+
     }
 
     @Override

@@ -103,6 +103,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/UnitTestingApp/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/UnitTestingApp/app/src/androidTest/java/com/unowhy/sqool/unittestingapp/MyClassTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/UnitTestingApp/app/src/main/java/com/unowhy/sqool/unittestingapp/MyClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/UnitTestingApp/app/src/test/java/com/unowhy/sqool/unittestingapp/MyClassTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/sqool_launcher/app/build.gradle">
           <value>
             <set />

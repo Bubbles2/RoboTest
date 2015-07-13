@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(manifest = "src/main/AndroidManifest.xml", sdk = 19)
+@Config(manifest = "src/main/AndroidManifest.xml", emulateSdk = 18)
 public class RoboTestOld {
     @Test
     public void testTrueIsTrue() throws Exception {
@@ -80,11 +80,16 @@ public class RoboTestOld {
     public void Start2() {
         //
         Intent i = new Intent(Intent.ACTION_VIEW);
+        i.putExtra("myTitle","pass this value");
         activity2 = Robolectric.buildActivity(Screen2.class).withIntent(i).create().get();
         //
         assertThat(activity2).isNotNull();
         //
-        assertTrue("Incorrect Title Should be Robotest",activity2.getTitle().toString().equals("RoboTest"));
+        assertTrue("Incorrect Title Should be Robotest",activity2.getTitle().toString().equals("Screen2"));
         //
+        TextView textView = (TextView) activity2.findViewById(R.id.txt1);
+        assertThat(textView).containsText("pass this value");
+        //
+
     }
 }
