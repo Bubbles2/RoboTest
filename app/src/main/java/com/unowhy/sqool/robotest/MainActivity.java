@@ -29,7 +29,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         //
         TextView tnr = (TextView) findViewById(R.id.dbRecords);
-       //tnr.setText(""+printRecords());
+//        int numrecsa=0;
+//        int numrecs=printRecords();
+//        tnr.setText(""+numrecs);
         // Read records from DB
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -37,11 +39,16 @@ public class MainActivity extends Activity {
             public void onClick(View view) {
                 TextView textView = (TextView) findViewById(R.id.textView);
                 EditText editText = (EditText) findViewById(R.id.editText);
-
                 textView.setText(String.format("Hello, %s!", editText.getText()));
+                //
+                TextView tnr = (TextView) findViewById(R.id.dbRecords);
+                int numrecs=printRecords();
+                tnr.setText(""+numrecs);
             }
         });
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -64,21 +71,22 @@ public class MainActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
-
-
     public int printRecords() {
         //
         int norecs = 0;
         ContentResolver cr = getContentResolver();
         //
         Cursor c = cr.query(CONTENT_URI, null, null, null, null);
-
         while (c.moveToNext()) {
             Log.i("Records", c.getString(c.getColumnIndex(CommonValues.KEY_SQOOLKEY)));
             norecs++;
        }
         c.close();
         return norecs;
+    }
+
+    public int addMyNumbers(int a, int b){
+
+        return a+b;
     }
 }

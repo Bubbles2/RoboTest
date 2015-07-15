@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Desktop/oldcode/AndroidStudio/Lists/app/build.gradle">
           <value>
             <set />
@@ -24,6 +29,46 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Desktop/oldcode/AndroidStudio/SqoolCP/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/oldcode/AndroidStudio/TstRecycle2/app/src/main/java/services/com/unowhy/tstrecycle2/RecycAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/androidTest/java/com/commonsware/android/abf/SecondScreenTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/androidTest/java/com/commonsware/android/abf/test/DemoActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/androidTest/java/com/commonsware/android/abf/test/SecondScreenTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/main/java/com/commonsware/android/abf/ActionBarFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/main/java/com/commonsware/android/abf/ActionBarFragmentActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/cw-omnibus-master/Testing/JUnit4/src/main/java/com/commonsware/android/abf/SecondScreen.java">
           <value>
             <set />
           </value>
@@ -54,6 +99,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/unowhy/sqool/robotest/Screen2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/unowhy/sqool/robotest/SqoolCP.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/unowhy/sqool/robotest/SqoolDBHelper.java">
           <value>
             <set />
           </value>
@@ -134,6 +189,31 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/sqool_launcher/app/src/test/java/com/unowhy/sqool/activities/LauncherActivityTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sqool_production/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sqool_production/app/src/androidTest/java/com/unowhy/sqool/sqoolproduction/RoboTes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sqool_production/app/src/androidTest/java/com/unowhy/sqool/sqoolproduction/StdJunitTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sqool_production/app/src/test/java/RoboTestOld.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/sqool_production/build.gradle">
           <value>
             <set />
           </value>

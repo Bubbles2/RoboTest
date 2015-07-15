@@ -58,6 +58,8 @@ public class RoboTestOld {
     @Test
     public void shouldNotBeNull() {
 
+        SqoolCP scp = new SqoolCP();
+
 
         assertThat(activity).isNotNull();
 
@@ -85,13 +87,17 @@ public class RoboTestOld {
         //
         assertThat(activity2).isNotNull();
         //
-        assertTrue("Incorrect Title Should be Robotest",activity2.getTitle().toString().equals("Screen2"));
+        assertTrue("Incorrect Title Should be Robotest", activity2.getTitle().toString().equals("Screen2"));
         //
         TextView textView = (TextView) activity2.findViewById(R.id.txt1);
         assertThat(textView).containsText("pass this value");
         //
 
     }
+    @Test
+    public void testAdd() {
+        //
+       }
 
 
 }

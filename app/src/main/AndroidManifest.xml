@@ -25,6 +25,14 @@
             android:name=".Screen2"
             android:label="@string/title_activity_screen2" >
         </activity>
+        //
+        <provider
+            android:name=".SqoolCP"
+            android:authorities="com.unowhy.sqoolcp.SqoolCP"
+            android:exported="true"
+            android:readPermission="com.unowhy.sqoolcp.SqoolCP.READ_DATABASE"
+            android:writePermission="com.unowhy.sqoolcp.SqoolCP.WRITE_DATABASE" />
+
     </application>
 
 </manifest>
